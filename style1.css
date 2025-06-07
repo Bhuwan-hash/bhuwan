@@ -413,76 +413,148 @@ nav .fas
     color: #ff004f;
 }
 
+
 @media only screen and (max-width: 600px){
-    #header{
+    #header {
         background-image: url(images/new.jpeg);
     }
-    .header-text{
+
+    .header-text {
         margin-top: 50%;
         font-size: 16px;
+        text-align: center;
     }
-.header-text h1{
-    font-size: 30px;
-}
 
-nav .fas{
-    display: block;
-    font-size: 25px;
+    .header-text h1 {
+        font-size: 30px;
+    }
 
-}
-nav ul{
-    background:#ff004f;
-    position: fixed;
-    top:0;
-    right:-200px;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
-    z-index: 2;
-    transition: right 0.5s;
-}
-nav ul li{
-    display: block;
-    margin: 25px;
-}
-nav ul .fas{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-}
-.subtitle{
-    font-size: 40px;
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
 
-}
-.aboutcol1, .aboutcol{
-    flex-basis: 100%;
-}
-.aboutcol1{
-    margin-bottom:30px ;
-}
-.aboutcol2{
-    font-size: 14px;
-}
-.tablinks{
-font-size:16px;
-margin-right:20px ;
+    nav ul {
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
 
-}
-.contactleft, .contactright{
-    flex-basis: 100%;
-}
-.text{
-position: relative;
-top: -70px;
-}
-.bhuwan{
-    position: relative;
-    top: 30px;
-}
-.header-text h5{
-    font-size: 20px;
-     
-}
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
 
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .subtitle {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .aboutcol1, .aboutcol2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .aboutcol1 {
+        margin-bottom: 30px;
+    }
+
+    .aboutcol2 {
+        font-size: 14px;
+    }
+
+    .tablinks {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .tabtitles {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .serviceslist {
+        grid-template-columns: 1fr;
+    }
+
+    .worklist {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .card-inner {
+        height: 200px;
+    }
+
+    .contactleft, .contactright {
+        flex-basis: 100%;
+    }
+
+    .text {
+        position: relative;
+        top: -70px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .bhuwan {
+        position: relative;
+        top: 140px;
+        text-align: center;
+    }
+
+    .header-text h5 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 10px 5%;
+    }
+
+    .socialicons {
+        text-align: center;
+    }
+
+    .socialicons a {
+        margin: 10px;
+    }
+
+    .btn.btn2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    form input, form textarea {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .work a {
+        font-size: 24px;
+    }
+
+    .work p {
+        font-size: 16px;
+    }
+
+    .clone {
+        width: 100%;
+        height: auto;
+    }
 }
